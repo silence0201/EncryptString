@@ -141,11 +141,13 @@ int main(int argc, const char * argv[]) {
                 
                 const char *pEncryptName = [strEncrypt UTF8String];
                 sprintf(strText,"#define Es_%s [eXProtect AESDecrypt:@\"%s\"] //%s",pDefName,pEncryptName,strBuf);
+                printf("#define Es_%s [eXProtect AESDecrypt:@\"%s\"] //%s",pDefName,pEncryptName,strBuf);
             }
             else if(strcmp(pstrType, "class") == 0)
             {
                 char *strRandom = genRandomString(15,line_count);  //产生随机字符串
                 sprintf(strText,"#define %s %s //%s",strBuf,strRandom,strBuf);
+                printf("#define %s %s //%s",strBuf,strRandom,strBuf);
             }
             else
             {
@@ -162,7 +164,7 @@ int main(int argc, const char * argv[]) {
         fclose(fp_input_file);
         fclose(fp_output_file);
         
-        printf("The number of successful stringDefine has %d, Done.\n",line_count);
+        printf("\r\nThe number of successful stringDefine has %d, Done.\n",line_count);
     }
     return 0;
 }
