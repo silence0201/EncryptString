@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSLog(@"%@",Es_teststr);
+    NSString *normalStr = @"Hello,World";
+    NSString *protoctedStr = Es_Silence0201;
+    
+    NSLog(@"未加密的字符串: %@", normalStr);
+    NSLog(@"加密的字符串: %@", protoctedStr);
 }
 
 

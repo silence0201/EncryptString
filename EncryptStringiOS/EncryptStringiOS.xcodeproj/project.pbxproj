@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E807024A250D0B9C00755CAD /* NormalAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = E8070249250D0B9C00755CAD /* NormalAccount.m */; };
+		E807024D250D0C9100755CAD /* SpecialAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = E807024C250D0C9100755CAD /* SpecialAccount.m */; };
 		E8318E56250CFEE800A6C22F /* libeXProtect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8318E55250CFEE800A6C22F /* libeXProtect.a */; };
 		E8BE4EE4250CCE9800782E03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE4EE3250CCE9800782E03 /* AppDelegate.m */; };
 		E8BE4EE7250CCE9800782E03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE4EE6250CCE9800782E03 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8070248250D0B9C00755CAD /* NormalAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalAccount.h; sourceTree = "<group>"; };
+		E8070249250D0B9C00755CAD /* NormalAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalAccount.m; sourceTree = "<group>"; };
+		E807024B250D0C9100755CAD /* SpecialAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpecialAccount.h; sourceTree = "<group>"; };
+		E807024C250D0C9100755CAD /* SpecialAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpecialAccount.m; sourceTree = "<group>"; };
 		E8318E54250CFEE800A6C22F /* eXProtect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eXProtect.h; sourceTree = "<group>"; };
 		E8318E55250CFEE800A6C22F /* libeXProtect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libeXProtect.a; sourceTree = "<group>"; };
 		E8318E65250D05C300A6C22F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -78,8 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				E845E03E250D087500CB30BC /* ClassDefine */,
-				E845E03B250D087500CB30BC /* ClassDefine.h */,
 				E845E03D250D087500CB30BC /* StringDefine */,
+				E845E03B250D087500CB30BC /* ClassDefine.h */,
 				E845E03F250D087500CB30BC /* StringDefine.h */,
 			);
 			path = Define;
@@ -116,6 +122,10 @@
 				E8BE4EED250CCE9800782E03 /* LaunchScreen.storyboard */,
 				E8BE4EF0250CCE9800782E03 /* Info.plist */,
 				E8BE4EF1250CCE9800782E03 /* main.m */,
+				E8070248250D0B9C00755CAD /* NormalAccount.h */,
+				E8070249250D0B9C00755CAD /* NormalAccount.m */,
+				E807024B250D0C9100755CAD /* SpecialAccount.h */,
+				E807024C250D0C9100755CAD /* SpecialAccount.m */,
 			);
 			path = EncryptStringiOS;
 			sourceTree = "<group>";
@@ -127,10 +137,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8BE4EF5250CCE9800782E03 /* Build configuration list for PBXNativeTarget "EncryptStringiOS" */;
 			buildPhases = (
+				E8318E6C250D06E800A6C22F /* ShellScript */,
 				E8BE4EDB250CCE9800782E03 /* Sources */,
 				E8BE4EDC250CCE9800782E03 /* Frameworks */,
 				E8BE4EDD250CCE9800782E03 /* Resources */,
-				E8318E6C250D06E800A6C22F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -211,7 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E807024A250D0B9C00755CAD /* NormalAccount.m in Sources */,
 				E8BE4EE7250CCE9800782E03 /* ViewController.m in Sources */,
+				E807024D250D0C9100755CAD /* SpecialAccount.m in Sources */,
 				E8BE4EF2250CCE9800782E03 /* main.m in Sources */,
 				E8BE4EE4250CCE9800782E03 /* AppDelegate.m in Sources */,
 			);

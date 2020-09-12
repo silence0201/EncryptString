@@ -1,2 +1,1 @@
-#define LoginCheck bfxAxvAIxUxxux //LoginCheck
-#define httpPostUserInfo xqxNbxxxxxxxlB //httpPostUserInfo
+#define SpecialAccount ywxxxYIYxXxRmq //SpecialAccount
