@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:eXProtect/eXProtect.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EncryptStringiOS/../EncryptStringMac/EncryptStringMac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EncryptStringiOS/EncryptStringiOS.xcodeproj">
+   </FileRef>
+</Workspace>
