@@ -54,10 +54,8 @@
                                             &numBytesEncrypted);
     
     if(cryptorStatus == kCCSuccess) {
-        NSLog(@"AES Success");
         return [NSData dataWithBytesNoCopy:buffer length:numBytesEncrypted];
     } else {
-        NSLog(@"AES Error");
     }
     
     free(buffer);
