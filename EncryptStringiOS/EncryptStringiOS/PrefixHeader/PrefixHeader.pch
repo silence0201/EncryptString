@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  EncryptStringiOS
+//
+//  Created by Silence on 2020/9/12.
+//  Copyright © 2020年 Silence. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "eXProtect.h"
+#import "ClassDefine.h"
+#import "StringDefine.h"
+
+#endif /* PrefixHeader_pch */
