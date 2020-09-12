@@ -7,9 +7,10 @@
 //
 
 #import "eXProtect.h"
+#import "eXCryptString.h"
 #import <CommonCrypto/CommonCrypto.h>
 
-#define AESKey @"eXProtectCommonCrypto"
+#define AESKey  SIDefense_CRYPT_STR_N("eXProtectCommonCrypto",21) 
 
 @interface NSString (_eXProtect)
 @end

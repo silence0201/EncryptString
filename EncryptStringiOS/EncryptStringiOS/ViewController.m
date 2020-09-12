@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "NormalAccount.h"
+#import "SpecialAccount.h"
 
 @interface ViewController ()
 
@@ -22,6 +24,12 @@
     
     NSLog(@"未加密的字符串: %@", normalStr);
     NSLog(@"加密的字符串: %@", protoctedStr);
+    
+    NormalAccount *normalAccount = [[NormalAccount alloc] init];
+    SpecialAccount *specialAccount = [[SpecialAccount alloc] init];
+    
+    [normalAccount print];
+    [specialAccount print];
 }
 
 

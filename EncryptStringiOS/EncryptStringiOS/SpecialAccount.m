@@ -10,4 +10,8 @@
 
 @implementation SpecialAccount
 
+- (void)print {
+    NSLog(@"%@",NSStringFromClass([self class]));
+}
+
 @end

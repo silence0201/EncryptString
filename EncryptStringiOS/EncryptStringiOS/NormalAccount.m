@@ -10,4 +10,8 @@
 
 @implementation NormalAccount
 
+- (void)print {
+    NSLog(@"%@",NSStringFromClass([self class]));
+}
+
 @end

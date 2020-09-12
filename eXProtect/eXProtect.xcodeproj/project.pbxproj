@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		E8070250250D144A00755CAD /* eXCryptString.m in Sources */ = {isa = PBXBuildFile; fileRef = E807024F250D144A00755CAD /* eXCryptString.m */; };
 		E8464AFB250CF9CA00BC6838 /* eXProtect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8BE4F21250CF8DC00782E03 /* eXProtect.h */; };
 		E8BE4F23250CF8DC00782E03 /* eXProtect.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE4F22250CF8DC00782E03 /* eXProtect.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E807024E250D144A00755CAD /* eXCryptString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eXCryptString.h; sourceTree = "<group>"; };
+		E807024F250D144A00755CAD /* eXCryptString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eXCryptString.m; sourceTree = "<group>"; };
 		E8BE4F07250CF46B00782E03 /* libeXProtect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libeXProtect.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8BE4F21250CF8DC00782E03 /* eXProtect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eXProtect.h; sourceTree = "<group>"; };
 		E8BE4F22250CF8DC00782E03 /* eXProtect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eXProtect.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 			children = (
 				E8BE4F21250CF8DC00782E03 /* eXProtect.h */,
 				E8BE4F22250CF8DC00782E03 /* eXProtect.m */,
+				E807024E250D144A00755CAD /* eXCryptString.h */,
+				E807024F250D144A00755CAD /* eXCryptString.m */,
 			);
 			path = eXProtect;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8070250250D144A00755CAD /* eXCryptString.m in Sources */,
 				E8BE4F23250CF8DC00782E03 /* eXProtect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
